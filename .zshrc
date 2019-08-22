@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/fgao/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Path
-export PATH="$HOME/.npm-global/bin:$(go env GOPATH)/bin:$HOME/.cargo/bin:/usr/local/mysql/bin:/usr/local/opt/coreutils/libexec/gnubin:/Users/fgao/scripts:$PATH"
+export PATH="$HOME/.npm-global/bin:$(go env GOPATH)/bin:$HOME/.cargo/bin:/usr/local/mysql/bin:/usr/local/opt/coreutils/libexec/gnubin:$HOME/scripts:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
